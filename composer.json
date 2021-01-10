@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/micro_framework",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "User",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "Engine\\": "application\\core\\engine"
+    }
+  }
+}
